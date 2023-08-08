@@ -1,0 +1,194 @@
+/*----CSS Reset---*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.cant {
+    width: 646px;
+    height: 780px;
+    background: white;
+    color: rgb(23, 21, 21);
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    padding: 20px;
+}
+
+/*-----CSS For Hearder-----*/
+header {
+    display: block;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+.box {
+    border: 1px solid gray;
+    height: 160px;
+    margin-top: 20px;
+
+}
+.box:active{
+    background: #F4FBF9;
+    
+}
+
+/*-----Heading CSS codes------*/
+h3 {
+    color: #007F61;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    line-height: 18px;
+    font-weight: 600;
+    font-family: Metropolis;
+    grid-template-columns: repeat(3, 0.4fr);
+    column-gap: .0.6rem;
+
+}
+
+h3::before,
+h3::after {
+    content: "";
+    height: 2px;
+    background-color: gray;
+    display: block;
+}
+
+/*----CSS For Pairs-----*/
+h4 {
+    display: inline;
+    font-weight: 400;
+
+}
+p{
+    float: right;
+    display: block;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.green p6{
+    color: black;
+    float: right;
+    display: inline;
+    margin-right: 20px;
+}
+del{
+    display: inline;
+    color: gray;
+    margin-left: 60px;
+
+}
+.green{
+    color: #007F61;
+    float: right;
+    margin-top:20px ;
+    margin-right: 20px;
+}
+p2{
+    margin-left: 12%;
+    display: block;
+}
+input[type="radio" i] {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.pair {
+    width: 150px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 12%;
+    margin-bottom: 20px;
+}
+
+.size {
+    float: left;
+    clear: both;
+}
+
+.color {
+    float: right;
+    display: block;
+}
+
+h4 {
+    display: inline;
+    font-weight: 400;
+}
+
+span {
+    display: inline;
+    font-weight: 400;
+}
+
+/*----CSS For Asides Contents-----*/
+.asides {
+    width: 400px;
+    height: 110px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.para1 {
+    color: #007F61;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+    display: inline;
+}
+
+.para2 {
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    border: 2px solid red;
+    color: #007F61;
+
+}
+
+/*---CSS For Button*/
+#btn {
+    position: relative;
+}
+
+#btn button {
+    background-color: #007F61;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    width: 400px;
+    height: 50px;
+}
+
+.minusbtn,
+.plusbtn {
+    display: none;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+/*----CSS For Footer*/
+footer {
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin: auto;
+}
+
+footer p {
+    float: right;
+    margin-top: 5px;
+}
